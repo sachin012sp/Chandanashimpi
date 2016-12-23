@@ -15,10 +15,10 @@
       nice();
 });
 
-/* close navbar collapse after click in mobile 
+/* close navbar collapse after click in mobile */
 	$('.navbar-collapse ul li a').click(function() {
 	    $('.navbar-toggle:visible').click();
-	});*/
+	});
 
 /* Strengths section chart */
 	$(document).ready(function(){
