@@ -797,43 +797,15 @@ color: #ccc4c4;
 #skills .sec-wrapper > .sec-content {
   padding: 40px 0px 30px;
 }
-.chartbox {
-  margin-bottom: 40px;
+/* Trying rem for logo images */
+.skill-logo-img {
+	margin:1rem 0.5rem;
+	height:55px
 }
-.chartbox .chart1 {
-  position: relative;
-  display: block;
-  width: 150px;
-  height: 150px;
-  margin: 20px auto 10px;
-  text-align: center;
-}
-.chartbox .chart1 canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.chartbox .chart1-title {
-  font-family: 'Alegreya', serif;
-  font-size: 20px;
-  line-height: 50px;
-  font-weight: 450;
-  display: block;
-  text-align: center;
-}
-.chartbox .percent {
-  display: inline-block;
-  font-family: 'Alegreya', serif;
-  font-size: 32px;
-  line-height: 142px;
-  font-weight: 450;
-  color: #fff;  /* for numbers in green: #148914 */
-  z-index: 2;
-}
-.chartbox .percent::after {
-  content: '%';
-  margin-left: 0.1em;
-  font-size: .8em;
+.skill-logo-row{
+	text-align:center;
+	padding:2rem 2rem 0 2rem;
+	font-size:3rem
 }
 
 /*---------------------------------------------------------------------*/
