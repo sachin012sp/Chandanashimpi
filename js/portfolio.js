@@ -37,22 +37,7 @@
     };
 });
 
-/* Skills section chart */
- var circleChart = function (){
-  $('.chart1').easyPieChart({
-    animate: 2000,
-    barColor: '#148914', //Green
-    trackColor: '#f6f6f6', //Gray
-	scaleColor:	false, //specify '#f6f6f6' to display
-	lineCap: 'square',
-    size: 150,
-    lineWidth: 8,
-    easing: 'easeOutCirc',
-    onStep: function(from, to, percent) {
-      $(this.el).find('.percent').text(Math.round(percent));
-    }
-  });
-};
- $(document).ready(function(){
-      circleChart();
+/* Initializing all tooltips on the page */
+$(function () {
+    $('[data-toggle=tooltip]').tooltip();
 });
