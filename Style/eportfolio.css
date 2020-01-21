@@ -728,7 +728,7 @@ span.separator.center {
 .project-holder {
 	width:100%;
 	height:100%;
-	float:left;
+	/* float:left; */
 	overflow:hidden;
 	margin: 5px auto 5px;
 	padding: 5px;
